@@ -1,0 +1,132 @@
+-------------------------------------------------------------------------------
+Test set: com.sura.frauddetection.runner.TestDefraudadores
+-------------------------------------------------------------------------------
+Tests run: 47, Failures: 32, Errors: 0, Skipped: 0, Time elapsed: 2.925 s <<< FAILURE! - in com.sura.frauddetection.runner.TestDefraudadores
+prediccion[0](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.106 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[2](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.106 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[2](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.008 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[4](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[0](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[6](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[6](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[4](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.007 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[8](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.015 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[10](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[8](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[12](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[12](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[10](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[14](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[14](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[16](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[18](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[16](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[20](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[22](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[18](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[20](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[22](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[24](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[26](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[28](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[24](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[28](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[26](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[30](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
+prediccion[30](com.sura.frauddetection.runner.TestDefraudadores)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: El empleado expected:<[S]ospechoso de fraude> but was:<[No es s]ospechoso de fraude>
+	at com.sura.frauddetection.runner.TestDefraudadores.prediccion(TestDefraudadores.java:37)
+
