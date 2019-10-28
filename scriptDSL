@@ -1,0 +1,33 @@
+folder('Experimentos') {
+    displayName('Experimentos')
+    description('carpeta experimentos')
+}
+mavenJob('Experimentos/fraude') {
+    displayName('Deteccion de fraude')
+    description('generacion de reportes de fraude')
+    logRotator(5, 5, 5, 5)
+    scm {
+        git {
+            remote {
+                name("Riesgo-de-fraude")
+                url("https://github.com/pablo238/Riesgo-de-fraude.git")
+                credentials('master-key-id')
+            }
+            branch("master")
+            extensions {
+                cleanAfterCheckout()
+                cloneOptions {
+                    shallow()
+                }
+            }
+        }
+    
+    rootPOM('pom.xml')
+    mavenInstallation('Maven')
+    jdk('Java 8')
+    goals('clean verify serenity:aggregate' )
+    triggers{
+        cron('H 5 * * 1-5')
+    }
+   }
+}

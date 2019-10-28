@@ -30,7 +30,7 @@ public class AnalisisDefraudadores {
 
 	public void generarReporte(String cedula, String prediccion){
 		Serenity.recordReportData().withTitle("Detalles").andContents("Cedula:" + cedula);
-		assertEquals("El empleado",prediccion, "No es sospechoso de fraude");
+		assertEquals("El empleado","[0]", prediccion);
 	}
 
 

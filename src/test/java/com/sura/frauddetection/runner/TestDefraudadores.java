@@ -16,14 +16,14 @@ import net.thucydides.junit.annotations.UseTestDataFrom;
 @RunWith(SerenityParameterizedRunner.class)
 @CucumberOptions(plugin = { "pretty", "json:target/cucumber.json" }, glue = "com.sura.frauddetection.steps", monochrome = false)
 @Concurrent(threads = "4")
-@UseTestDataFrom(value = "ejm.csv", separator = ',')
+@UseTestDataFrom(value = "..\\..\\testpython\\Notificacion.csv", separator = ',')
 public class TestDefraudadores {
-	private String cedula;
-	private String prediccion;
+	private String Datos;
+	private String Fraude;
 
 	@Qualifier
 	public String qualifier() {
-		return cedula + ": " + prediccion;
+		return Datos + ": " + Fraude;
 	}
 
 	@Steps
@@ -32,8 +32,8 @@ public class TestDefraudadores {
 
 	@Test
 	public void prediccion()  {
-		prediccionesSteps.dadoElEmpleado(cedula);
+		prediccionesSteps.dadoElEmpleado(Datos);
 		prediccionesSteps.cuandoSeExaminanSusVariables();
-		prediccionesSteps.entoncesSeDebeObtenerUnaPrediccion(cedula, prediccion);
+		prediccionesSteps.entoncesSeDebeObtenerUnaPrediccion(Datos, Fraude);
 	}
 }
